@@ -1,0 +1,258 @@
+* {
+	border: none;
+	border-color: #00ffff;
+	border-radius: 0.1em;
+	/* border-width: 0.1em; */
+	font-family: "JetBrainsMono Nerd Font";
+	/* font-family: "JetBrains Nerd Font Mono"; */
+	transition: none;
+	transition-property: none;
+	transition-duration: 0s;
+	font-weight: 600;
+	font-size: 12px;
+	/* min-height: 0; */
+	transition: all 0s;
+	border-style: solid;
+	padding: 0em;
+	min-height: 0px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#waybar {
+	padding-top: 50px;
+	/* border-bottom-left-radius: 10px; */
+}
+
+#workspaces {
+	transition: none;
+	transition-property: none;
+	transition-duration: 0s;
+	color: #00ffff;
+	padding: 0em 0em 0em 0em;
+	/* border: 0.1em; */
+	border-style: solid;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+}
+
+#workspaces button {
+	border-width: 0.1em 0.1em 0.1em 0.1em;
+	/* border-radius: 0.3em; */
+	padding: 0em 0.5em 0em 0.2em;
+	margin: 0em 0.4em 0em 0em;
+	border-color: #26a65b;
+	color: #26a65b;
+}
+
+#workspaces button.active {
+	transition: none;
+	transition-property: none;
+	transition-duration: 0s;
+	border-color: #00ffff;
+	color: #00ffff;
+}
+
+#workspaces button.empty {
+	border-color: #ffbb00;
+	color: #ffbb00;
+}
+
+#custom-notifications {
+	margin-left: 0.5em;
+	transition: none;
+	transition-property: none;
+	transition-duration: 0s;
+	border-color: #00ffff;
+	/* color: #00ffff; */
+}
+
+#custom-notifications.low {
+	color: #3eee4c;
+	padding: 0em 0.3em 0em 0.3em;
+	margin-left: 0.4em;
+}
+#custom-notifications.med {
+	color: #e5a22e;
+	padding: 0em 0.3em 0em 0.3em;
+	margin-left: 0.4em;
+}
+#custom-notifications.high {
+	color: #e74c3c;
+	padding: 0em 0.3em 0em 0.3em;
+	margin-left: 0.4em;
+}
+#workspaces button.focused {
+	transition: none;
+	transition-property: none;
+	transition-duration: 0s;
+	/* color: #a6accc; */
+	/* background: #eba0ac; */
+}
+
+#workspaces button:hover {
+	background: #111827;
+	color: #f0f0f0;
+}
+
+#clock {
+	background: rgba(10, 10, 30, 0.6);
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	border-color: #00ffff;
+	color: #00ffff;
+	border-width: 0em;
+	padding: 0em 0.4em 0em 0.4em;
+	margin: 0em;
+}
+
+#cpu {
+	padding: 0em 0.4em 0em 0.4em;
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	border-color: #00ffff;
+	color: #66ffff;
+	margin-right: 0.5em;
+	margin-left: -0.2em;
+}
+#wireplumber {
+	padding: 0em 0.4em 0em 0.4em;
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	border-color: #ff6ec7;
+	color: #ff6ec7;
+	margin-left: -0.1em;
+}
+#wireplumber.mic {
+	padding: 0em 0.8em 0em 0.4em;
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.0em;
+	border-style: solid;
+	border-color: #ff6ec7;
+	color: #ff6ec7;
+	margin-left: 0.4em;
+}
+
+#memory {
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	border-color: #3eee4c;
+	color: #3eee4c;
+	padding: 0em 0.3em 0em 0.3em;
+	margin-left: 0.4em;
+}
+#custom-updates {
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	border-color: #00ffff;
+	color: #00ffff;
+	padding: 0em 0.3em 0em 0.3em;
+	margin-left: 0.4em;
+}
+#custom-updates.low {
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	border-color: #3eee4c;
+	color: #3eee4c;
+	padding: 0em 0.3em 0em 0.3em;
+	margin-left: 0.4em;
+}
+#custom-updates.med {
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	border-color: #e5a22e;
+	color: #e5a22e;
+	padding: 0em 0.3em 0em 0.3em;
+	margin-left: 0.4em;
+}
+#custom-updates.high {
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	border-color: #e74c3c;
+	color: #e74c3c;
+	padding: 0em 0.3em 0em 0.3em;
+	margin-left: 0.4em;
+}
+#custom-storage {
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	border-color: #b39ddb;
+	color: #b39ddb;
+	padding: 0em 0.2em 0em 0.2em;
+}
+
+#network {
+	background: rgba(0, 0, 0, 0);
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	border-color: #00ffff;
+	color: #ffe700;
+	padding: 0em 0.2em 0em 0.4em;
+	margin: 0em;
+	margin-left: 0.4em;
+}
+
+#tray {
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	border-color: #00ffff;
+	padding: 0em 0.2em 0em 0.2em;
+	margin-left: 0.4em;
+}
+
+#custom-power {
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	background: rgba(80, 10, 10, 0.5);
+	border-color: #00ffff;
+	color: #e74c3c;
+	padding: 0em 0.2em 0em 0.6em;
+	margin-left: 0.4em;
+}
+#custom-screenshot_t {
+	border-left: 0.1em;
+	border-bottom: 0.1em;
+	border-top: 0.1em;
+	border-right: 0.1em;
+	border-style: solid;
+	border-color: #00ffff;
+	padding: 0em 0.1em 0em 0.4em;
+	margin: 0em;
+}
