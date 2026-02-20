@@ -1,0 +1,14 @@
+configuration {
+	modi: "drun";
+}
+
+/* ---- Window ---- */
+window {
+	width: 80%;
+	height: inherit;
+	padding: 0.4em;
+	border: 0.1em;
+	border-color: #00ffff;
+	/* border- */radius: 0.2em;
+	background-color: rgba(0,0,0,0.5);
+}
