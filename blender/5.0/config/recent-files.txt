@@ -1,0 +1,6 @@
+/run/media/cyb3r/Target/Vtubing Projects/Animancer Mascot/model-V1/sculpt3.blend
+/run/media/cyb3r/Target/Vtubing Projects/Animancer Mascot/model-V1/sculpt2.blend
+/run/media/cyb3r/Target/Vtubing Projects/Animancer Mascot/model-V1/sculpt1.blend
+/run/media/cyb3r/Target/Vtubing Projects/Animancer Mascot/model-V1/blockout2.blend
+/run/media/cyb3r/Target/Vtubing Projects/Animancer Mascot/model-V1/blockout1.blend
+/run/media/cyb3r/Target/Vtubing Projects/Animancer Mascot/model-V1/Untitled.blend
