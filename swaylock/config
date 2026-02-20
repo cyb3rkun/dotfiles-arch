@@ -1,0 +1,24 @@
+ignore-empty-password
+disable-caps-lock-text
+font=Jetbrains Mono Nerd
+
+font-size=40
+screenshots
+effect-blur=7x5
+effect-vignette=1.0:1.0
+indicator
+indicator-radius=320
+indicator-thickness=20
+clock
+timestr=%I:%M %p
+datestr=%A %d %B
+ring-color=00ffff0F
+key-hl-color=82dccc
+line-color=00ffff
+separator-color=11FFffF0
+inside-color=11182608
+bs-hl-color=01cff
+layout-bg-color=ff1826
+layout-border-color=ffaa84
+layout-text-color=ffffff
+text-color=ffffff
