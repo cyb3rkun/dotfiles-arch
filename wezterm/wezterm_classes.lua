@@ -1,0 +1,30 @@
+-- --- @class wezterm
+-- --- @field config_builder fun(): table
+-- --- @field config_builder fun(): table
+-- --- @field font  fun(name: string): table
+-- --- @field action table
+-- local wezterm = {}
+--
+-- --- @class wezterm_config
+-- 	---@field term string 
+-- 	---@field initial_cols number
+-- 	---@field initial_rows number
+-- 	---@field default_cursor_style string
+-- 	---@field color_scheme string
+-- 	-- -@field font = wezterm.font("Jetbrains Mono NF Semi Bold"),
+-- 	---@field font_size number
+-- 	---@field line_height number
+-- 	---@field cell_width number
+-- 	---@field colors = {
+-- 	---@field 	indexed = { [16] = "rgba(0,0,0,0.1)" },
+-- 	---@field 	background = "rgba(0,0,0,0.4)",
+-- 	---@field 	-- cursorline =  "40404001"
+-- 	---@field },
+-- 	---@field enable_tab_bar boolean
+-- 	---@field window_close_confirmation string
+-- 	-- -@field window_padding = {
+-- 	-- -@field 	left = "2cell",
+-- 	-- -@field 	-- right = "1cell",
+-- 	-- -@field 	top = "0cell",
+-- 	-- -@field 	bottom = "0cell",
+-- 	-- -@field }
