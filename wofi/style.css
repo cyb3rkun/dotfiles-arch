@@ -1,0 +1,48 @@
+* {
+	font-family: "jetbrains-mono-nerd", monospace;
+}
+
+window {
+	background-color: #007d6f; /* cachydgreen */
+	font-size: 18px;
+}
+
+#input {
+	margin: 5px;
+	border: none;
+	background-color: #111826; /* cachydgreen */
+	color: #ffffffff; /* cachywhite */
+}
+
+#inner-box {
+	padding: 10px;
+	background-color: #111826; /* cachydblue */
+}
+
+#outer-box {
+	margin: 2px;
+	padding: 10px;
+	background-color: #111826; /* cachydblue */
+}
+
+#scroll {
+	margin: 5px;
+}
+
+#text {
+	padding: 4px;
+	color: #ffffffff; /* cachywhite */
+}
+
+#entry:nth-child(even) {
+	/* border-radius: 5px; */
+	background-color: #182545; /* cachymblue */
+}
+
+#entry:selected {
+	background-color: #00aa84; /* cachymgreen */
+}
+
+#text:selected {
+	background: transparent;
+}

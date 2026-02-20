@@ -1,0 +1,7 @@
+allow_images=true
+key_expand=Tab
+hide_scroll=false
+no_actions=false
+term=wezterm
+mode=drun
+--show
