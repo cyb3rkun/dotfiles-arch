@@ -1,4 +1,7 @@
 [Bookmarks]
 [Recent]
-/run/media/cyb3r/Target/Vtubing Projects/Animancer Mascot/model-V1/
+/home/cyb3r/Downloads/roxy-migurdias-staff/textures/
 /home/cyb3r/Downloads/
+/home/cyb3r/Documents/
+/run/media/cyb3r/Target/Vtubing Projects/Animancer Mascot/model-V1/
+/run/media/cyb3r/NTFS/CYB3RKUN/VroidModels/ScratchModels/
