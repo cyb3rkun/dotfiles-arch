@@ -12,7 +12,6 @@ config.initial_cols = 120
 config.initial_rows = 28
 config.default_cursor_style = "BlinkingBar"
 
-config.color_scheme = "tokyonight_night"
 
 config.font = wezterm.font_with_fallback({
 	"Jetbrains Mono Nerd Font",
@@ -24,14 +23,16 @@ config.font = wezterm.font_with_fallback({
 config.font_dirs = {
 	"/usr/share/fonts/TTF",
 }
+
+config.color_scheme = "Tokyo Night Storm"
+config.colors = {
+	background = "black"
+}
+config.window_background_opacity = 0.4
+
 config.font_size = 9
 config.line_height = 0.86
 config.cell_width = 1.0
-config.colors = {
-	indexed = { [16] = "rgba(0,0,0,0.1)" },
-	background = "rgba(0,0,0,0.4)",
-	-- cursorline =  "40404001"
-}
 config.enable_tab_bar = false
 config.window_close_confirmation = "NeverPrompt"
 config.window_padding = {
