@@ -1,8 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export CARAPACE_BRIDGES:zsh\x2cfish\x2cbash\x2cinshellisense
-SETUVAR --export SSH_AGENT_PID:123159
-SETUVAR --export SSH_AUTH_SOCK:/home/cyb3r/\x2essh/agent/s\x2elNQgjG4Gw3\x2eagent\x2e3RAlqSGLBm
 SETUVAR --export WINIT_UNIX_BACKEND:x11
 SETUVAR __done_min_cmd_duration:10000
 SETUVAR __done_notification_urgency_level:low
