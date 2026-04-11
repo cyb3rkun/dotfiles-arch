@@ -33,5 +33,25 @@ end
 # Added by LM Studio CLI (lms)
 set -gx PATH $PATH /home/cyb3r/.lmstudio/bin
 set -gx QT_QPA_PLATFORMTHEME qt6ct
+
 # End of LM Studio CLI section
 
+# Ensure the universal SSH variables are exported to the environment
+if test -n "$SSH_AUTH_SOCK"
+    # Only export it if the socket file actually exists
+    if test -S "$SSH_AUTH_SOCK"
+        set -gx SSH_AUTH_SOCK "$SSH_AUTH_SOCK"
+        set -gx SSH_AGENT_PID "$SSH_AGENT_PID"
+    else
+        # If the socket is dead, clear the stale universal variables
+        set -e SSH_AUTH_SOCK
+        set -e SSH_AGENT_PID
+    end
+end
+# add the lux package manager library to lua's path
+set -gx LUA_CPATH "$HOME/.local/share/lux/?.so;;"
+set -gx LUA_PATH "$HOME/.local/share/lux/?.lua;;"
+# add luxa namespace to lua's path
+# set -gx LUA_CPATH "$HOME/.local/share/lux/luxa/?.so;;"
+# set -gx LUA_PATH "$HOME/.local/share/lux/luxa/?.lua;;"
+alias mt5="env WINEPREFIX=$HOME/.mt5 wine"

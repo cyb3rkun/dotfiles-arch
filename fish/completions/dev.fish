@@ -1,24 +1,16 @@
-# completion script for dev function that cd to ~/Dev/<project>/...
-# expands subdirs recursively
+function __fish_dev_complete
+    set -l cmd (commandline -opc)
+    set -l count (count $cmd)
+    set -l base "$HOME/Dev"
 
-
-function __fish_dev_generate_subdirs --description "list sub-directories under ~/Dev"
-	# use find to get every directory, strip leading ~/Dev/,
-	# replaces slashes '/' for display and keep only real dirs?
-	set -l base (string replace -r '^~/' '$HOME/') ~/Dev
-
-	if test ! -d $base
-		return 0 # nothing to complete if the folder does not exist
-	end
-
-	find "$base" -mindepth 1 -maxdepth 3 -type d \
-	| string replace -r "$HOME/Dev" "" \
-	| string trim -c "/"  # remove trailing '/'
+    if test $count -eq 1
+		find "$base" -mindepth 1 -maxdepth 1 -type d -printf "%f\n" 2>/dev/null
+	else if test $count -eq 2
+		set -l category $cmd[2]
+		if test  -d "$base/$category"
+			find "$base/$category" -mindepth 1 -maxdepth 1 -type d -printf "%f\n" 2>/dev/null
+		end
+    end
 end
 
-# definition
-complete -c dev \
-	-a "(__fish_dev_generate_subdirs)" \
-	-d "sub-directory of ~/Dev" \
-	-r
-# complete -c dev -a "(basename -a ~/Dev/*/ 2>/dev/null)"
+complete -c dev -f -a "(__fish_dev_complete)"
