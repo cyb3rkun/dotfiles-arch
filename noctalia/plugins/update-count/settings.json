@@ -1,0 +1,8 @@
+{
+  "updateIntervalMinutes": 5,
+  "updateTerminalCommand": "wezterm start -- {}",
+  "currentIconName": "arrow-big-down-line-filled",
+  "hideOnZero": true,
+  "customCmdGetNumUpdates": "",
+  "customCmdDoSystemUpdate": "sudo pacman -Syu"
+}

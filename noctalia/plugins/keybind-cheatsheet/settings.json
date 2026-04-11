@@ -1,0 +1,357 @@
+{
+  "cheatsheetData": [
+    {
+      "title": "Navigation",
+      "binds": [
+        {
+          "keys": "Super + RETURN",
+          "desc": "Opens Terminal\" #\"exec"
+        },
+        {
+          "keys": "Super + E",
+          "desc": "Opens your preferred filemanager ($filemanager)"
+        },
+        {
+          "keys": "Super + Q",
+          "desc": "Closes (not kill) current window"
+        },
+        {
+          "keys": "Super + Shift + M",
+          "desc": "Exits Hyprland by terminating the user sessions"
+        },
+        {
+          "keys": "Super + V",
+          "desc": "Switches current window between floating and tiling mode"
+        },
+        {
+          "keys": "Super + F",
+          "desc": "Toggles current window fullscreen mode"
+        },
+        {
+          "keys": "Super + Y",
+          "desc": "Pin current window (shows on all workspaces)"
+        },
+        {
+          "keys": "Super + Shift + I",
+          "desc": "Toggles current window split mode"
+        },
+        {
+          "keys": "Super + Alt + K",
+          "desc": "exec"
+        },
+        {
+          "keys": "Super + Shift + D",
+          "desc": "Select Wallpaper"
+        },
+        {
+          "keys": "PrtSc",
+          "desc": "Copies a screenshot of an area"
+        },
+        {
+          "keys": "Ctrl + PrtSc",
+          "desc": "Copies a screenshot of the active window"
+        },
+        {
+          "keys": "Alt + PrtSc",
+          "desc": "Copies a screenshot of the active display"
+        },
+        {
+          "keys": "Super + G",
+          "desc": "Toggles  current window group mode (ungroup all related)"
+        },
+        {
+          "keys": "Super + TAB",
+          "desc": "Switches to the next window in the group"
+        },
+        {
+          "keys": "Play",
+          "desc": "Toggles play/pause"
+        },
+        {
+          "keys": "Next",
+          "desc": "Next track"
+        },
+        {
+          "keys": "Prev",
+          "desc": "Previous track"
+        },
+        {
+          "keys": "Super + Ctrl + L",
+          "desc": "Lock the screen"
+        },
+        {
+          "keys": "Super + O",
+          "desc": "Reload/restarts Waybar"
+        },
+        {
+          "keys": "Super + B",
+          "desc": "Toggle Hide/Show Waybar"
+        },
+        {
+          "keys": "Super + Left Click",
+          "desc": "Move the window towards a direction"
+        },
+        {
+          "keys": "Super + Shift + H",
+          "desc": "Move active window to the left"
+        },
+        {
+          "keys": "Super + Shift + L",
+          "desc": "Move active window to the right"
+        },
+        {
+          "keys": "Super + Shift + K",
+          "desc": "Move active window upwards"
+        },
+        {
+          "keys": "Super + Shift + J",
+          "desc": "Move active window downwards"
+        },
+        {
+          "keys": "Super + H",
+          "desc": "Move focus to the left"
+        },
+        {
+          "keys": "Super + L",
+          "desc": "Move focus to the right"
+        },
+        {
+          "keys": "Super + K",
+          "desc": "Move focus upwards"
+        },
+        {
+          "keys": "Super + J",
+          "desc": "Move focus downwards"
+        },
+        {
+          "keys": "Super + R",
+          "desc": "Activates window resizing mode"
+        },
+        {
+          "keys": "RIGHT",
+          "desc": "Resize to the right (resizing mode)"
+        },
+        {
+          "keys": "LEFT",
+          "desc": "Resize to the left (resizing mode)"
+        },
+        {
+          "keys": "UP",
+          "desc": "Resize upwards (resizing mode)"
+        },
+        {
+          "keys": "DOWN",
+          "desc": "Resize downwards (resizing mode)"
+        },
+        {
+          "keys": "L",
+          "desc": "Resize to the right (resizing mode)"
+        },
+        {
+          "keys": "H",
+          "desc": "Resize to the left (resizing mode)"
+        },
+        {
+          "keys": "K",
+          "desc": "Resize upwards (resizing mode)"
+        },
+        {
+          "keys": "J",
+          "desc": "Resize downwards (resizing mode)"
+        },
+        {
+          "keys": "ESCAPE",
+          "desc": "Ends window resizing mode"
+        },
+        {
+          "keys": "Super + Shift + Ctrl + L",
+          "desc": "Resize to the right"
+        },
+        {
+          "keys": "Super + Shift + Ctrl + H",
+          "desc": "Resize to the left"
+        },
+        {
+          "keys": "Super + Shift + Ctrl + K",
+          "desc": "Resize upwards"
+        },
+        {
+          "keys": "Super + Shift + Ctrl + J",
+          "desc": "Resize downwards"
+        },
+        {
+          "keys": "Super + Shift + 1",
+          "desc": "Move window and switch to workspace 1"
+        },
+        {
+          "keys": "Super + Shift + 2",
+          "desc": "Move window and switch to workspace 2"
+        },
+        {
+          "keys": "Super + Shift + 3",
+          "desc": "Move window and switch to workspace 3"
+        },
+        {
+          "keys": "Super + Shift + 4",
+          "desc": "Move window and switch to workspace 4"
+        },
+        {
+          "keys": "Super + Shift + 5",
+          "desc": "Move window and switch to workspace 5"
+        },
+        {
+          "keys": "Super + Shift + 6",
+          "desc": "Move window and switch to workspace 6"
+        },
+        {
+          "keys": "Super + Shift + 7",
+          "desc": "Move window and switch to workspace 7"
+        },
+        {
+          "keys": "Super + Shift + 8",
+          "desc": "Move window and switch to workspace 8"
+        },
+        {
+          "keys": "Super + Shift + 9",
+          "desc": "Move window and switch to workspace 9"
+        },
+        {
+          "keys": "Super + Shift + 0",
+          "desc": "Move window and switch to workspace 10"
+        },
+        {
+          "keys": "Super + Shift + LEFT",
+          "desc": "Move window and switch to the next workspace"
+        },
+        {
+          "keys": "Super + Shift + RIGHT",
+          "desc": "Move window and switch to the previous workspace"
+        },
+        {
+          "keys": "Super + Ctrl + 1",
+          "desc": "Move window silently to workspace 1"
+        },
+        {
+          "keys": "Super + Ctrl + 2",
+          "desc": "Move window silently to workspace 2"
+        },
+        {
+          "keys": "Super + Ctrl + 3",
+          "desc": "Move window silently to workspace 3"
+        },
+        {
+          "keys": "Super + Ctrl + 4",
+          "desc": "Move window silently to workspace 4"
+        },
+        {
+          "keys": "Super + Ctrl + 5",
+          "desc": "Move window silently to workspace 5"
+        },
+        {
+          "keys": "Super + Ctrl + 6",
+          "desc": "Move window silently to workspace 6"
+        },
+        {
+          "keys": "Super + Ctrl + 7",
+          "desc": "Move window silently to workspace 7"
+        },
+        {
+          "keys": "Super + Ctrl + 8",
+          "desc": "Move window silently to workspace 8"
+        },
+        {
+          "keys": "Super + Ctrl + 9",
+          "desc": "Move window silently to workspace 9"
+        },
+        {
+          "keys": "Super + Ctrl + 0",
+          "desc": "Move window silently to workspace 10"
+        },
+        {
+          "keys": "Super + 1",
+          "desc": "Switch to workspace 1"
+        },
+        {
+          "keys": "Super + 2",
+          "desc": "Switch to workspace 2"
+        },
+        {
+          "keys": "Super + 3",
+          "desc": "Switch to workspace 3"
+        },
+        {
+          "keys": "Super + 4",
+          "desc": "Switch to workspace 4"
+        },
+        {
+          "keys": "Super + 5",
+          "desc": "Switch to workspace 5"
+        },
+        {
+          "keys": "Super + 6",
+          "desc": "Switch to workspace 6"
+        },
+        {
+          "keys": "Super + 7",
+          "desc": "Switch to workspace 7"
+        },
+        {
+          "keys": "Super + 8",
+          "desc": "Switch to workspace 8"
+        },
+        {
+          "keys": "Super + 9",
+          "desc": "Switch to workspace 9"
+        },
+        {
+          "keys": "Super + 0",
+          "desc": "Switch to workspace 10"
+        },
+        {
+          "keys": "Super + PERIOD",
+          "desc": "Scroll through workspaces incrementally"
+        },
+        {
+          "keys": "Super + COMMA",
+          "desc": "Scroll through workspaces decrementally"
+        },
+        {
+          "keys": "Super + Scroll Down",
+          "desc": "Scroll through workspaces incrementally"
+        },
+        {
+          "keys": "Super + Scroll Up",
+          "desc": "Scroll through workspaces decrementally"
+        },
+        {
+          "keys": "Super + SLASH",
+          "desc": "Switch to the previous workspace"
+        },
+        {
+          "keys": "Super + MINUS",
+          "desc": "Move active window to Special workspace"
+        },
+        {
+          "keys": "Super + EQUAL",
+          "desc": "Toggles the Special workspace"
+        },
+        {
+          "keys": "Super + F1",
+          "desc": "Call special workspace scratchpad"
+        },
+        {
+          "keys": "Super + Shift + Alt + F1",
+          "desc": "Move active window to special workspace scratchpad"
+        }
+      ]
+    }
+  ],
+  "detectedCompositor": "hyprland",
+  "niriConfigPath": "~/.config/niri/config.kdl",
+  "hyprlandConfigPath": "~/.config/hypr/config/keybinds.conf",
+  "modKeyVariable": "$mainMod",
+  "windowHeight": 850,
+  "windowWidth": 1400,
+  "autoHeight": true,
+  "columnCount": 2
+}

@@ -1,0 +1,6 @@
+{
+  "sourceCurrency": "USD",
+  "targetCurrency": "EUR",
+  "widgetDisplayMode": "icon",
+  "refreshInterval": 15
+}
